@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+    <script th:src="@{/js/jquery.min.js}"></script>
+    <script th:src="@{/js/bootstrap.min.js}"></script>
+    <title>数据展示页</title>
+</head>
+<body style="margin-left: 200px;margin-right: 200px">
+<table class="table table-striped">
+    <caption>条纹表格布局</caption>
+    <thead>
+    <tr>
+        <th>序号</th>
+        <th>昵称</th>
+        <th>手机</th>
+        <th>邮箱</th>
+        <th>地址</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="user:${userList}">
+        <td th:text="${userStat.count}">x</td>
+        <td th:text="${user.nick}">x</td>
+        <td th:text="${user.phone}">137xxxxx</td>
+        <td th:text="${user.email}">xxxx@xxx.com</td>
+        <td th:text="${user.address}">上海.是分开的讲法</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

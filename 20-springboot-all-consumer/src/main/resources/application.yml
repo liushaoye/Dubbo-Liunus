@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: 20-com.springboot-all-consumer
+  dubbo:
+    appname:  20-com.springboot-all-consumer
+    registry: zookeeper://192.168.31.254:2181
+    check: false
+    protocol:
+      name: dubbo
+      port: 20880
+      host: 192.168.31.254
+      serialization:  kryo

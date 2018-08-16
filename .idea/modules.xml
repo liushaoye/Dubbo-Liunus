@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/20-no-dubbo/20-no-dubbo.iml" filepath="$PROJECT_DIR$/20-no-dubbo/20-no-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-springboot-all-consumer/20-springboot-all-consumer.iml" filepath="$PROJECT_DIR$/20-springboot-all-consumer/20-springboot-all-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20-springboot-all-provider/20-springboot-all-provider.iml" filepath="$PROJECT_DIR$/20-springboot-all-provider/20-springboot-all-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_20springbootallinterface/_20springbootallinterface.iml" filepath="$PROJECT_DIR$/_20springbootallinterface/_20springbootallinterface.iml" />
+    </modules>
+  </component>
+</project>

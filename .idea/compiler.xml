@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="20-no-dubbo" />
+        <module name="20-springboot-all-consumer" />
+        <module name="20-springboot-all-provider" />
+        <module name="_20springbootallinterface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="20-no-dubbo" target="1.8" />
+      <module name="20-springboot-all-consumer" target="1.8" />
+      <module name="20-springboot-all-provider" target="1.8" />
+      <module name="_20springbootallinterface" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
